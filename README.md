@@ -6,7 +6,6 @@ I've develop some automation code against the Salesforce CRM application to gain
 The main goal here is to have a working script that tests the given steps. 
 
 Automation Script Steps
-Markup : 
 
           1. Log-in to application from a web browser (e.g. Internet Explorer, Firefox, Chrome, etc.).
           2. Navigate to "My Accounts" using tab near top of home page.
