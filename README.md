@@ -6,7 +6,9 @@ I've develop some automation code against the Salesforce CRM application to gain
 The main goal here is to have a working script that tests the given steps. 
 
 Automation Script Steps
- Markup : 1. Log-in to application from a web browser (e.g. Internet Explorer, Firefox, Chrome, etc.).
+Markup : 
+
+          1. Log-in to application from a web browser (e.g. Internet Explorer, Firefox, Chrome, etc.).
           2. Navigate to "My Accounts" using tab near top of home page.
           3. Select "Adams, Bob" from the My Accounts list.
           4. Near the top of the Account page is a "Record A Call" button. Select this button.
@@ -17,7 +19,10 @@ Automation Script Steps
           9. On the same Call Discussion section, make sure each section appears in order the product was selected. If Labrinone was selected first, then Labrinone should show up first (from top down) under Call Discussion section.
           10. In Samples and Promotional Items section, select "QNASL Co-Pay Card", and change quantity to 2.
           11. Call report should be saved using "Saved" button with a check for successful submission. As final step, the script should logout (found on drop down menu in upper right).
+          
 
+ 
 
+Screen Recording 2020-05-26 at 3.21.47 AM.mov
 
-![](crm_automation.gif) or download the Screen Recording 2020-05-26 at 3.21.47 AM.mov
+![](crm_automation.gif) 
