@@ -2,4 +2,5 @@
 Java Selenium done in Page Objects Pattern
 
 
-crm_automation.gif
+
+![](crm_automation.gif)
