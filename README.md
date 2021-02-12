@@ -19,9 +19,14 @@ Automation Script Steps
           10. In Samples and Promotional Items section, select "QNASL Co-Pay Card", and change quantity to 2.
           11. Call report should be saved using "Saved" button with a check for successful submission. As final step, the script should logout (found on drop down menu in upper right).
           
-
  
 
 Screen Recording 2020-05-26 at 3.21.47 AM.mov
 
 ![](crm_automation.gif) 
+
+Before running the script(CreatesAndSavesReports.java)
+
+          1. Clone this repo
+          2. Ensure chromedriver is up-to-date with chrome browser and in the proper location
+          2. Click run test in the CreatesAndSavesReports.java
