@@ -2,25 +2,29 @@ package com.selenium;
 
 import static org.junit.Assert.assertTrue;
 
+import java.time.Duration;
+
 import org.junit.Test;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 /**
  * @author Oscar Leung
- * @version 1.0  
- * An automation script that uses Page-Object which creates and saves a Call Report.
- * Objective - to demostrate automation code and to have a working script
- * I have it set up where I can easily press Run Test or Debug Test(to system print)
+ * @version 1.0 An automation script that uses Page-Object which creates and
+ *          saves a Call Report. Objective - to demostrate automation code and
+ *          to have a working script I have it set up where I can easily press
+ *          Run Test or Debug Test(to system print)
  */
 public class CreatesAndSavesReports extends FunctionalTest {
+
     /**
-     * Step 1 
-     * Log-in to application from a Google Chrome browser
-     * This step was fairly simple since I had prior experience on my own scripts of trying to automate job applications on LinkedIn
+     * Step 1 Log-in to application from a Google Chrome browser This step was
+     * fairly simple since I had prior experience on my own scripts of trying to
+     * automate job applications on LinkedIn
      */
     @Test
     public void signingIn() {
@@ -65,15 +69,16 @@ public class CreatesAndSavesReports extends FunctionalTest {
     @Test
     public void selectMassAddPromoCall() {
         validateCallReport();
-        // WebDriverWait wait = new WebDriverWait(driver,30); // deprecated and wrote an explicit wait to fix the unable to interact with missing elements
-        // wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("RecordTypeId")));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3)); // deprecated and wrote an explicit wait to fix the unable to interact with missing elements
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("RecordTypeId")));
         new Select(driver.findElement(By.id("RecordTypeId"))).selectByIndex(19); // where 19 is 'Mass Add Promo Call'
     }
 
+
     /**
-     * Step 7 
-     * On Call Report page, the script should select Cholecap and Labrinone in Detail Priority section.
-     * I prefer to have specific methods that checks the boxes instead of entering a name for a product.
+     * Step 7 On Call Report page, the script should select Cholecap and Labrinone
+     * in Detail Priority section. I prefer to have specific methods that checks the
+     * boxes instead of entering a name for a product.
      */
     @Test
     public void selectCholecapAndLabrinone() {
