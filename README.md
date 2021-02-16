@@ -35,6 +35,8 @@ Failed Testcases
 Passing Testcases
 ![](Passed Testcases.png) 
 ![alt text](https://github.com/oscar-leung/CRM-Automation/blob/Fixing-Branch/Passed%20Testcases.png)
+
 Debug Prints
+
 ![](https://github.com/oscar-leung/CRM-Automation/blob/Fixing-Branch/Debug%20Prints.png)
 
