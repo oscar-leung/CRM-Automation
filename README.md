@@ -25,3 +25,10 @@ Automation Script Steps
 Screen Recording 2020-05-26 at 3.21.47 AM.mov
 
 ![](crm_automation.gif) 
+
+2.12.2021 Test Run #1
+Failed Testcases
+![](Test 1 2.12.2021.png)
+4.16.2021 Test Run #2
+Passing Testcases
+![](Passed Testcases.png) 
