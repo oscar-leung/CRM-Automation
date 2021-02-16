@@ -1,9 +1,9 @@
 package com.selenium;
 
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 
 /**
  * example of MyAccountPage
@@ -52,10 +52,12 @@ public class NewMassAddPromoCallPage extends pageObject{
     }
 
     public void clickOnCholecapCheckbox(){
+        // ExpectedConditions.elementToBeClickable(cholecapCheckbox);
         cholecapCheckbox.click();
     }
 
     public void clickOnLabrinoneCheckbox(){
+        //new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.elementToBeClickable(labrinoneCheckbox));
         labrinoneCheckbox.click();
     }
 

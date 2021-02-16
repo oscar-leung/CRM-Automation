@@ -3,6 +3,7 @@ package com.selenium;
 import static org.junit.Assert.assertTrue;
 
 import java.time.Duration;
+import java.util.concurrent.TimeUnit;
 
 import org.junit.Test;
 
@@ -55,6 +56,7 @@ public class CreatesAndSavesReports extends FunctionalTest {
         MyAccountPage myAccountPage = new MyAccountPage(driver); // ditto
         myAccountPage.clickOnAdamsBob(); // might be too specific for a method but xpath is flexible and dynamic here cause I can just change the xpath
         AccountProfilePage accountProfilePage = new AccountProfilePage(driver); //ditto 
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // Added wait time to find the element
         accountProfilePage.recordACall(); // clicks record a call button
         CallReportPage callReportPage = new CallReportPage(driver);
         callReportPage.isInitialized(); // page validation
@@ -69,8 +71,8 @@ public class CreatesAndSavesReports extends FunctionalTest {
     @Test
     public void selectMassAddPromoCall() {
         validateCallReport();
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(3)); // deprecated and wrote an explicit wait to fix the unable to interact with missing elements
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("RecordTypeId")));
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5)); // Fixed the missing element by adding a wait time
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("RecordTypeId"))); 
         new Select(driver.findElement(By.id("RecordTypeId"))).selectByIndex(19); // where 19 is 'Mass Add Promo Call'
     }
 
@@ -79,12 +81,16 @@ public class CreatesAndSavesReports extends FunctionalTest {
      * Step 7 On Call Report page, the script should select Cholecap and Labrinone
      * in Detail Priority section. I prefer to have specific methods that checks the
      * boxes instead of entering a name for a product.
+     * 
+     * ~ 51 seconds
+     *
      */
     @Test
     public void selectCholecapAndLabrinone() {
         selectMassAddPromoCall();
-        NewMassAddPromoCallPage newMassAddPromoCallPage = new NewMassAddPromoCallPage(driver);
-        newMassAddPromoCallPage.isInitialized(); // checks page is there
+        NewMassAddPromoCallPage newMassAddPromoCallPage = new NewMassAddPromoCallPage(driver);  
+        // newMassAddPromoCallPage.isInitialized(); // checks page is there
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS); // fixed clicking checkbox due to elements not fully loaded, especially those with slow internet
         newMassAddPromoCallPage.clickOnCholecapCheckbox(); 
         newMassAddPromoCallPage.clickOnLabrinoneCheckbox();
     }
