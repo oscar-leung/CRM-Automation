@@ -1,7 +1,7 @@
 # CRM-Automation
 Java Selenium done in Page Objects Pattern
 
-I've develop some automation code against the Salesforce CRM application to gain insight and a feel for what's involved with automation development for this application in a web browser.
+I've develop some automation code from scratch against the Salesforce CRM application to gain insight and a feel for what's involved with automation development for this application in a web browser.
 
 The main goal here is to have a working script that tests the given steps. 
 
