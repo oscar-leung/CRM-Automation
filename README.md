@@ -1,5 +1,5 @@
 # CRM-Automation
-Java Selenium done in Page Objects Pattern
+Java Selenium Framework done in Page Objects Pattern from scratch
 
 I've develop some automation code from scratch against the Salesforce CRM application to gain insight and a feel for what's involved with automation development for this application in a web browser.
 
