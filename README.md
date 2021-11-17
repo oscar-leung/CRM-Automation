@@ -34,22 +34,22 @@ Before running the script(CreatesAndSavesReports.java)
 
 2.12.2021 Test Run #1
 Failed Testcases
-![](https://github.com/oscar-leung/CRM-Automation/blob/Fixing-Branch/Test%201%202.12.2021.png)
+![](https://github.com/oscar-leung/CRM-Automation/blob/main/Test%201%202.12.2021.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
 2.12.2021 Test Run #2
-![](https://github.com/oscar-leung/CRM-Automation/blob/Fixing-Branch/Test%202%202.12.2021.png) 
+![](https://github.com/oscar-leung/CRM-Automation/blob/main/Test%202%202.12.2021.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
 4.16.2021 Test Run #3
 Passing Testcases
 ![](Passed Testcases.png) 
-![](https://github.com/oscar-leung/CRM-Automation/blob/Fixing-Branch/Passed%20Testcases.png)
+![](https://github.com/oscar-leung/CRM-Automation/blob/main/Passed%20Testcases.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
 Debug Prints
 
-![](https://github.com/oscar-leung/CRM-Automation/blob/Fixing-Branch/Debug%20Prints.png)
+![](https://github.com/oscar-leung/CRM-Automation/blob/main/Debug%20Prints.png)
