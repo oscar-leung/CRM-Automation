@@ -21,7 +21,7 @@ Automation Script Steps
           
  
 
-Screen Recording 2020-05-26 at 3.21.47 AM.mov
+1[](Screen Recording 2020-05-26 at 3.21.47 AM.mov)
 
 ![](crm_automation.gif) 
 
@@ -35,11 +35,13 @@ Before running the script(CreatesAndSavesReports.java)
 2.12.2021 Test Run #1
 Failed Testcases
 ![](https://github.com/oscar-leung/CRM-Automation/blob/main/Test%201%202.12.2021.png)
+![](Test 1 2.12.2021.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
 2.12.2021 Test Run #2
 ![](https://github.com/oscar-leung/CRM-Automation/blob/main/Test%202%202.12.2021.png)
+![](Test 2 2.12.2021.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
@@ -47,6 +49,7 @@ Failed Testcases
 Passing Testcases
 ![](Passed Testcases.png) 
 ![](https://github.com/oscar-leung/CRM-Automation/blob/main/Passed%20Testcases.png)
+![](Passed Testcases.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
