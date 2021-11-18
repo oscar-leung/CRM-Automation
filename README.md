@@ -29,27 +29,25 @@ Before running the script(CreatesAndSavesReports.java)
 
           1. Clone this repo
           2. Ensure chromedriver is up-to-date with chrome browser and in the proper location
-          2. Click run test in the CreatesAndSavesReports.java
+          3. Click run test in the CreatesAndSavesReports.java
+
+
 ------------------------------------------------------------------------------------------------------------------------
 
 2.12.2021 Test Run #1
 Failed Testcases
 ![](https://github.com/oscar-leung/CRM-Automation/blob/main/Test%201%202.12.2021.png)
-![](Test 1 2.12.2021.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
 2.12.2021 Test Run #2
 ![](https://github.com/oscar-leung/CRM-Automation/blob/main/Test%202%202.12.2021.png)
-![](Test 2 2.12.2021.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
 4.16.2021 Test Run #3
 Passing Testcases
-![](Passed Testcases.png) 
 ![](https://github.com/oscar-leung/CRM-Automation/blob/main/Passed%20Testcases.png)
-![](Passed Testcases.png)
 
 ------------------------------------------------------------------------------------------------------------------------
 
