@@ -14,10 +14,10 @@ Automation Script Steps
           5. Validate the Call Report page is displayed.
           6. On Call Report page, select "Mass Add Promo Call" from the Record Type drop down list.
           7. On Call Report page, the script should select Cholecap and Labrinone in Detail Priority section.
-          8. Under Call Discussions section, make sure a subsection appeared for both Cholecap and Labrinone. Also make sure the "Product" fields are set to the respective product (one should be set to Cholecap, the other should be set to Labrinone).
-          9. On the same Call Discussion section, make sure each section appears in order the product was selected. If Labrinone was selected first, then Labrinone should show up first (from top down) under Call Discussion section.
-          10. In Samples and Promotional Items section, select "QNASL Co-Pay Card", and change quantity to 2.
-          11. Call report should be saved using "Saved" button with a check for successful submission. As final step, the script should logout (found on drop down menu in upper right).
+          8. Under Call Discussions section, make sure a subsection appeared for both Cholecap and Labrinone. Also make sure the "Product" fields are set to the                  respective product (one should be set to Cholecap, the other should be set to Labrinone).
+          9. On the same Call Discussion section, make sure each section appears in order the product was selected. If Labrinone was selected first, then Labrinone              should show up first (from top down) under Call Discussion section.
+          10.In Samples and Promotional Items section, select "QNASL Co-Pay Card", and change quantity to 2.
+          11.Call report should be saved using "Saved" button with a check for successful submission. As final step, the script should logout (found on drop down                menu in upper right).
           
  
 
