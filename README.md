@@ -21,7 +21,9 @@ Automation Script Steps
           
  
 
-1[](Screen Recording 2020-05-26 at 3.21.47 AM.mov)
+![alt text](Screen Recording 2020-05-26 at 3.21.47 AM.mov)
+![alt text](https://github.com/oscar-leung/CRM-Automation/blob/main/Screen%20Recording%202020-05-26%20at%203.21.47%20AM.mov)
+![alt text](Screen Recording 2020-05-26 at 3.21.47 AM.mov)
 
 ![](crm_automation.gif) 
 
